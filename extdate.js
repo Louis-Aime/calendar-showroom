@@ -1,1 +1,0 @@
-export { default } from "./calendrical-javascript/extdate.js";
