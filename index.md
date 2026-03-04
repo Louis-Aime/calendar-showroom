@@ -3,10 +3,10 @@ Showroom of calendar and date management applications by Louis-Aimé de Fouquiè
 
 ## calendrical-javascript
 
-* [Link to the calendrical-javascript GitHub repository](https://github.com/Louis-Aime/calendrical-javascript)
+* [Link to the GitHub repository](https://github.com/Louis-Aime/calendrical-javascript)
 
 ### Demonstrator
-To be installed shortly
+
 * [Calendrical demonstrator, French](./calendrical-javascript/calendrical-demo-fr)
 * [Calendrical demonstrator, English](./calendrical-javascript/calendrical-demo-en)
 
@@ -28,4 +28,42 @@ Under the documentation for module *calendars*, you find the list of custom cale
 
 ### Comments and proposal
 Use the repository's [issues](https://github.com/Louis-Aime/calendrical-javascript/issues).
+
+## Milesian-calendar
+
+* [Link to the GitHub repository](https://github.com/Louis-Aime/Milesian-calendar)
+
+### Demonstrators
+
+#### The complete Milesian clock
+Read the real date and the time, convert from and to custom calendars, display custom and Unicode calendars get the mean moon's coordinates, the seasons, and the yearly main figures in historical Gregorian, ISO 8601, Julian and Milesian calendars.
+
+ * [The Milesian clock](https://louis-aime.github.io/Milesian-calendar/milesianclock.html).
+ * [The Milesian clock (English version)](https://louis-aime.github.io/Milesian-calendar/milesianclock-en.html).
+
+#### The date converter
+Convert from basic European calendars to any Unicode calendar.
+
+ * [The date converter](https://louis-aime.github.io/Milesian-calendar/converter.html).
+
+#### Yearly figures
+Compute the yearly characteristics figures: seasons, Delta T, and calendrical basic data.
+
+ * [The yearly figures](https://louis-aime.github.io/Milesian-calendar/yearsignaturedisplay.html).
+
+#### The light Milesian clock
+
+This simple clocks sticks to the system's time and gives the date on a Milesian dial.
+
+ * [The light Milesian clock](https://louis-aime.github.io/Milesian-calendar/lightmilesianclock.html).
+
+#### Just display today's date in Milesian using your current Locale
+
+Write today's date in Milesian, after fetching the modules and the pldr.xml file:
+
+ * [Today's date in Milesian](https://louis-aime.github.io/Milesian-calendar/load-modules-and-write.html).
+
+### Comments and proposal
+ Use this repository's [issues](https://github.com/Louis-Aime/Milesian-calendar/issues).
+
 
