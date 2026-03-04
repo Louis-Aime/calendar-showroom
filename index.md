@@ -7,8 +7,8 @@ Showroom of calendar and date management applications by Louis-Aimé de Fouquiè
 
 ### Demonstrator
 To be installed shortly
-* [Calendrical demonstrator, French](./calendrical-demo-fr)
-* [Calendrical demonstrator, English](./calendrical-demo-en)
+* [Calendrical demonstrator, French](./calendrical-javascript/calendrical-demo-fr)
+* [Calendrical demonstrator, English](./calendrical-javascript/calendrical-demo-en)
 Usage:
 With the first panel, choose a custom calendar, then enter a date in this calendar. 
 If you use the "Real Gregorian" calendar, you can specify the switching day to New Style Gregorian.
