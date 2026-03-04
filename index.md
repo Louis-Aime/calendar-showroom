@@ -62,6 +62,9 @@ This simple clocks sticks to the system's time and gives the date on a Milesian 
 Write today's date in Milesian, after fetching the modules and the pldr.xml file:
 
  * [Today's date in Milesian](./Milesian-calendar/load-modules-and-write.html).
+ 
+### Software documentation
+* [JSDoc documentation for this package](https://louis-aime.github.io/Milesian-calendar/)
 
 ### Comments and proposal
  Use this repository's [issues](https://github.com/Louis-Aime/Milesian-calendar/issues).
