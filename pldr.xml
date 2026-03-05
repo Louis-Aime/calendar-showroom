@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Private Locale Data Repository (PLDR): private definitions of calendar element names, 
+using the same structure as Unicode's CLDR.
+Entry node: <pldr>.
+Non language-specific section is <ldmlBCP47>.
+Language-specific section is <ldml>.
+Version 	M2025-12-14 Changed narrow values for milesian months
+	
+-->
+<!-- <!DOCTYPE ldmlBCP47 SYSTEM "../../common/dtd/ldmlBCP47.dtd"> -->
+<pldr>
+ <ldmlBCP47>
+  <calendar type="gregory">
+	<eras>
+		<eraNames>
+			<era type="0" draft="unconfirmed">ante Christo</era>
+			<era type="1" draft="unconfirmed">stilo vetere</era>
+			<era type="2" draft="unconfirmed">stilo novo</era>
+		</eraNames>
+		<eraAbbr>
+			<era type="0" draft="unconfirmed">a. C.</era>
+			<era type="1" draft="unconfirmed">st. v.</era>
+			<era type="2" draft="unconfirmed">st. n.</era>
+		</eraAbbr>
+		<eraNarrow>
+			<era type="0" draft="unconfirmed">A</era>
+			<era type="1" draft="unconfirmed">V</era>
+			<era type="2" draft="unconfirmed">N</era>
+		</eraNarrow>
+	</eras>	
+  </calendar>
+  <calendar type="milesian">
+    <months>
+      <monthContext type="format">
+       <default type="abbreviated"/>
+		<monthWidth type="wide"><!-- explicit names in Latin -->
+           <month type="1" draft="unconfirmed">⁨unemis⁩</month>
+           <month type="2" draft="unconfirmed">⁨secundemis⁩</month>
+           <month type="3" draft="unconfirmed">⁨tertemis⁩</month>
+           <month type="4" draft="unconfirmed">⁨quartemis⁩</month>
+           <month type="5" draft="unconfirmed">⁨quintemis⁩</month>
+           <month type="6" draft="unconfirmed">⁨sextemis⁩</month>
+           <month type="7" draft="unconfirmed">⁨septemis⁩</month>
+           <month type="8" draft="unconfirmed">⁨octemis⁩</month>
+           <month type="9" draft="unconfirmed">⁨novemis⁩</month>
+           <month type="10" draft="unconfirmed">⁨decemis⁩</month>
+	       <month type="11" draft="unconfirmed">⁨undecemis⁩</month>
+           <month type="12" draft="unconfirmed">⁨duodecemis⁩</month>
+        </monthWidth>
+        <monthWidth type="abbreviated"> <!-- short international explicit notation -->
+            <month type="1" draft="unconfirmed">⁨1m⁩</month>
+            <month type="2" draft="unconfirmed">⁨2m⁩</month>
+            <month type="3" draft="unconfirmed">⁨3m⁩</month>
+            <month type="4" draft="unconfirmed">⁨4m⁩</month>
+            <month type="5" draft="unconfirmed">⁨5m⁩</month>
+            <month type="6" draft="unconfirmed">⁨6m⁩</month>
+            <month type="7" draft="unconfirmed">⁨7m⁩</month>
+            <month type="8" draft="unconfirmed">⁨8m⁩</month>
+            <month type="9" draft="unconfirmed">⁨9m⁩</month>
+            <month type="10" draft="unconfirmed">⁨10m⁩</month>
+            <month type="11" draft="unconfirmed">⁨11m⁩</month>
+            <month type="12" draft="unconfirmed">⁨12m⁩</month>
+        </monthWidth>
+       <monthWidth type="narrow"> <!-- unambiguous coding system with only one letter -->
+            <month type="1" draft="unconfirmed">⁨P⁩</month>
+            <month type="2" draft="unconfirmed">⁨S⁩</month>
+            <month type="3" draft="unconfirmed">⁨T⁩</month>
+            <month type="4" draft="unconfirmed">⁨Q⁩</month>
+            <month type="5" draft="unconfirmed">⁨C⁩</month>
+            <month type="6" draft="unconfirmed">⁨X⁩</month>
+            <month type="7" draft="unconfirmed">⁨E⁩</month>
+            <month type="8" draft="unconfirmed">⁨O⁩</month>
+            <month type="9" draft="unconfirmed">⁨N⁩</month>
+            <month type="10" draft="unconfirmed">⁨D⁩</month>
+            <month type="11" draft="unconfirmed">⁨U⁩</month>
+            <month type="12" draft="unconfirmed">⁨Z⁩</month>
+        </monthWidth>
+        <monthWidth type="numeric"> 	<!-- under "format" type, i.e. with compound date string, "numeric" width is like "abbreviated" -->	
+            <month type="1" draft="unconfirmed">⁨1m⁩</month>
+            <month type="2" draft="unconfirmed">⁨2m⁩</month>
+            <month type="3" draft="unconfirmed">⁨3m⁩</month>
+            <month type="4" draft="unconfirmed">⁨4m⁩</month>
+            <month type="5" draft="unconfirmed">⁨5m⁩</month>
+            <month type="6" draft="unconfirmed">⁨6m⁩</month>
+            <month type="7" draft="unconfirmed">⁨7m⁩</month>
+            <month type="8" draft="unconfirmed">⁨8m⁩</month>
+            <month type="9" draft="unconfirmed">⁨9m⁩</month>
+            <month type="10" draft="unconfirmed">⁨10m⁩</month>
+            <month type="11" draft="unconfirmed">⁨11m⁩</month>
+            <month type="12" draft="unconfirmed">⁨12m⁩</month>
+        </monthWidth>
+	</monthContext>
+       <monthContext type="stand-alone">
+         <default type="abbreviated"/>
+		<monthWidth type="wide">
+           <month type="1" draft="unconfirmed">⁨unemis⁩</month>
+           <month type="2" draft="unconfirmed">⁨secundemis⁩</month>
+           <month type="3" draft="unconfirmed">⁨tertemis⁩</month>
+           <month type="4" draft="unconfirmed">⁨quartemis⁩</month>
+           <month type="5" draft="unconfirmed">⁨quintemis⁩</month>
+           <month type="6" draft="unconfirmed">⁨sextemis⁩</month>
+           <month type="7" draft="unconfirmed">⁨septemis⁩</month>
+           <month type="8" draft="unconfirmed">⁨octemis⁩</month>
+           <month type="9" draft="unconfirmed">⁨novemis⁩</month>
+           <month type="10" draft="unconfirmed">⁨decemis⁩</month>
+	       <month type="11" draft="unconfirmed">⁨undecemis⁩</month>
+           <month type="12" draft="unconfirmed">⁨duodecemis⁩</month>
+        </monthWidth>
+         <monthWidth type="abbreviated">
+            <month type="1" draft="unconfirmed">⁨1m⁩</month>
+            <month type="2" draft="unconfirmed">⁨2m⁩</month>
+			<month type="3" draft="unconfirmed">⁨3m⁩</month>
+			<month type="4" draft="unconfirmed">⁨4m⁩</month>
+			<month type="5" draft="unconfirmed">⁨5m⁩</month>
+			<month type="6" draft="unconfirmed">⁨6m⁩</month>
+			<month type="7" draft="unconfirmed">⁨7m⁩</month>
+			<month type="8" draft="unconfirmed">⁨8m⁩</month>
+			<month type="9" draft="unconfirmed">⁨9m⁩</month>
+			<month type="10" draft="unconfirmed">⁨10m⁩</month>
+            <month type="11" draft="unconfirmed">⁨11m⁩</month>
+            <month type="12" draft="unconfirmed">⁨12m⁩</month>
+        </monthWidth>
+        <monthWidth type="numeric"> <!-- "stand-alone" suggest "isolated", in this case the real month number is given -->
+            <month type="1" draft="unconfirmed">1</month>
+            <month type="2" draft="unconfirmed">2</month>
+            <month type="3" draft="unconfirmed">3</month>
+            <month type="4" draft="unconfirmed">4</month>
+            <month type="5" draft="unconfirmed">5</month>
+            <month type="6" draft="unconfirmed">6</month>
+            <month type="7" draft="unconfirmed">7</month>
+            <month type="8" draft="unconfirmed">8</month>
+            <month type="9" draft="unconfirmed">9</month>
+            <month type="10" draft="unconfirmed">10</month>
+            <month type="11" draft="unconfirmed">11</month>
+            <month type="12" draft="unconfirmed">12</month>
+        </monthWidth>
+       <monthWidth type="narrow"> <!-- same unambiguous coding system with only one letter -->
+            <month type="1" draft="unconfirmed">⁨P⁩</month>
+            <month type="2" draft="unconfirmed">⁨S⁩</month>
+            <month type="3" draft="unconfirmed">⁨T⁩</month>
+            <month type="4" draft="unconfirmed">⁨Q⁩</month>
+            <month type="5" draft="unconfirmed">⁨C⁩</month>
+            <month type="6" draft="unconfirmed">⁨X⁩</month>
+            <month type="7" draft="unconfirmed">⁨E⁩</month>
+            <month type="8" draft="unconfirmed">⁨O⁩</month>
+            <month type="9" draft="unconfirmed">⁨N⁩</month>
+            <month type="10" draft="unconfirmed">⁨D⁩</month>
+            <month type="11" draft="unconfirmed">⁨U⁩</month>
+            <month type="12" draft="unconfirmed">⁨Z⁩</month>
+        </monthWidth>
+       </monthContext>
+    </months>
+    <quarters>
+      <quarterContext type="format">
+         <quarterWidth type="abbreviated">
+            <quarter type="1" draft="unconfirmed">⁨T1m⁩</quarter>
+            <quarter type="2" draft="unconfirmed">⁨T2m⁩</quarter>
+            <quarter type="3" draft="unconfirmed">⁨T3m⁩</quarter>
+            <quarter type="4" draft="unconfirmed">⁨T4m⁩</quarter>
+        </quarterWidth>
+        <quarterWidth type="wide">
+            <quarter type="1" draft="unconfirmed">⁨primum spatium trimestre⁩</quarter>
+            <quarter type="2" draft="unconfirmed">⁨secundum spatium trimestre⁩</quarter>
+            <quarter type="3" draft="unconfirmed">⁨tertium spatium trimestre⁩</quarter>
+            <quarter type="4" draft="unconfirmed">⁨quartum spatium trimestre⁩</quarter>
+        </quarterWidth>
+      </quarterContext>
+      <quarterContext type="stand-alone">
+         <quarterWidth type="abbreviated">
+            <quarter type="1" draft="unconfirmed">⁨T1m⁩</quarter>
+            <quarter type="2" draft="unconfirmed">⁨T2m⁩</quarter>
+            <quarter type="3" draft="unconfirmed">⁨T3m⁩</quarter>
+            <quarter type="4" draft="unconfirmed">⁨T4m⁩</quarter>
+        </quarterWidth>
+        <quarterWidth type="wide">
+            <quarter type="1" draft="unconfirmed">⁨primo spatio trimestre⁩</quarter>
+            <quarter type="2" draft="unconfirmed">⁨secundo spatio trimestre⁩</quarter>
+            <quarter type="3" draft="unconfirmed">⁨tertio spatio trimestre⁩</quarter>
+            <quarter type="4" draft="unconfirmed">⁨quarto spatio trimestre⁩</quarter>
+        </quarterWidth>
+      </quarterContext>
+    </quarters>
+  </calendar>
+ <calendar type="frenchrev"> 
+    <months>
+      <monthContext type="format">
+       <default type="abbreviated"/>
+		<monthWidth type="wide">
+			<month type="1" draft="unconfirmed">⁨vendemiaire⁩</month>
+			<month type="2" draft="unconfirmed">⁨brumaire⁩</month>
+			<month type="3" draft="unconfirmed">⁨frimaire⁩</month>
+			<month type="4" draft="unconfirmed">⁨nivose⁩</month>
+			<month type="5" draft="unconfirmed">⁨pluviose⁩</month>
+			<month type="6" draft="unconfirmed">⁨ventose⁩</month>
+			<month type="7" draft="unconfirmed">⁨germinal⁩</month>
+			<month type="8" draft="unconfirmed">⁨floreal⁩</month>
+			<month type="9" draft="unconfirmed">⁨prairial⁩</month>
+			<month type="10" draft="unconfirmed">⁨messidor⁩</month>
+			<month type="11" draft="unconfirmed">⁨thermidor⁩</month>
+			<month type="12" draft="unconfirmed">⁨fructidor⁩</month>
+			<month type="13" draft="unconfirmed">⁨sans-culottides⁩</month>
+        </monthWidth>
+        <monthWidth type="abbreviated">
+            <month type="1" draft="unconfirmed">⁨vend.⁩</month>
+            <month type="2" draft="unconfirmed">⁨brum.⁩</month>
+            <month type="3" draft="unconfirmed">⁨frim.⁩</month>
+            <month type="4" draft="unconfirmed">⁨niv.⁩</month>
+            <month type="5" draft="unconfirmed">⁨pluv.⁩</month>
+            <month type="6" draft="unconfirmed">⁨vent.⁩</month>
+            <month type="7" draft="unconfirmed">⁨germ.⁩</month>
+            <month type="8" draft="unconfirmed">⁨flor.⁩</month>
+            <month type="9" draft="unconfirmed">⁨prair.⁩</month>
+            <month type="10" draft="unconfirmed">⁨mess.⁩</month>
+            <month type="11" draft="unconfirmed">⁨therm.⁩</month>
+            <month type="12" draft="unconfirmed">⁨fruct.⁩</month>
+            <month type="13" draft="unconfirmed">⁨ss-cul.⁩</month>
+        </monthWidth>
+       <monthWidth type="narrow">
+            <month type="1" draft="unconfirmed">⁨V⁩</month>
+            <month type="2" draft="unconfirmed">⁨B⁩</month>
+            <month type="3" draft="unconfirmed">⁨F⁩</month>
+            <month type="4" draft="unconfirmed">⁨N⁩</month>
+            <month type="5" draft="unconfirmed">⁨P⁩</month>
+            <month type="6" draft="unconfirmed">⁨V⁩</month>
+            <month type="7" draft="unconfirmed">⁨G⁩</month>
+            <month type="8" draft="unconfirmed">⁨F⁩</month>
+            <month type="9" draft="unconfirmed">⁨P⁩</month>
+            <month type="10" draft="unconfirmed">⁨M⁩</month>
+            <month type="11" draft="unconfirmed">⁨T⁩</month>
+            <month type="12" draft="unconfirmed">⁨F⁩</month>
+            <month type="13" draft="unconfirmed">⁨S⁩</month>
+        </monthWidth>
+        <monthWidth type="numeric"> 
+            <month type="1" draft="unconfirmed">⁨1⁩</month>
+            <month type="2" draft="unconfirmed">⁨2⁩</month>
+            <month type="3" draft="unconfirmed">⁨3⁩</month>
+            <month type="4" draft="unconfirmed">⁨4⁩</month>
+            <month type="5" draft="unconfirmed">⁨5⁩</month>
+            <month type="6" draft="unconfirmed">⁨6⁩</month>
+            <month type="7" draft="unconfirmed">⁨7⁩</month>
+            <month type="8" draft="unconfirmed">⁨8⁩</month>
+            <month type="9" draft="unconfirmed">⁨9⁩</month>
+            <month type="10" draft="unconfirmed">⁨10⁩</month>
+            <month type="11" draft="unconfirmed">⁨11⁩</month>
+            <month type="12" draft="unconfirmed">⁨12⁩</month>
+            <month type="13" draft="unconfirmed">⁨13⁩</month>
+        </monthWidth>
+	</monthContext>
+       <monthContext type="stand-alone">
+         <default type="abbreviated"/>
+		<monthWidth type="wide">
+			<month type="1" draft="unconfirmed">⁨vendemiaire⁩</month>
+			<month type="2" draft="unconfirmed">⁨brumaire⁩</month>
+			<month type="3" draft="unconfirmed">⁨frimaire⁩</month>
+			<month type="4" draft="unconfirmed">⁨nivose⁩</month>
+			<month type="5" draft="unconfirmed">⁨pluviose⁩</month>
+			<month type="6" draft="unconfirmed">⁨ventose⁩</month>
+			<month type="7" draft="unconfirmed">⁨germinal⁩</month>
+			<month type="8" draft="unconfirmed">⁨floreal⁩</month>
+			<month type="9" draft="unconfirmed">⁨prairial⁩</month>
+			<month type="10" draft="unconfirmed">⁨messidor⁩</month>
+			<month type="11" draft="unconfirmed">⁨thermidor⁩</month>
+			<month type="12" draft="unconfirmed">⁨fructidor⁩</month>
+			<month type="13" draft="unconfirmed">⁨sans-culottides⁩</month>
+        </monthWidth>
+         <monthWidth type="abbreviated">
+            <month type="1" draft="unconfirmed">⁨vend.⁩</month>
+            <month type="2" draft="unconfirmed">⁨brum.⁩</month>
+            <month type="3" draft="unconfirmed">⁨frim.⁩</month>
+            <month type="4" draft="unconfirmed">⁨niv.⁩</month>
+            <month type="5" draft="unconfirmed">⁨pluv.⁩</month>
+            <month type="6" draft="unconfirmed">⁨vent.⁩</month>
+            <month type="7" draft="unconfirmed">⁨germ.⁩</month>
+            <month type="8" draft="unconfirmed">⁨flor.⁩</month>
+            <month type="9" draft="unconfirmed">⁨prair.⁩</month>
+            <month type="10" draft="unconfirmed">⁨mess.⁩</month>
+            <month type="11" draft="unconfirmed">⁨therm.⁩</month>
+            <month type="12" draft="unconfirmed">⁨fruct.⁩</month>
+            <month type="13" draft="unconfirmed">⁨ss-cul.⁩</month>
+        </monthWidth>
+        <monthWidth type="numeric"> <!-- "stand-alone" suggest "isolated", in this case the real month number is given -->
+            <month type="1" draft="unconfirmed">1</month>
+            <month type="2" draft="unconfirmed">2</month>
+            <month type="3" draft="unconfirmed">3</month>
+            <month type="4" draft="unconfirmed">4</month>
+            <month type="5" draft="unconfirmed">5</month>
+            <month type="6" draft="unconfirmed">6</month>
+            <month type="7" draft="unconfirmed">7</month>
+            <month type="8" draft="unconfirmed">8</month>
+            <month type="9" draft="unconfirmed">9</month>
+            <month type="10" draft="unconfirmed">10</month>
+            <month type="11" draft="unconfirmed">11</month>
+            <month type="12" draft="unconfirmed">12</month>
+            <month type="13" draft="unconfirmed">13</month>
+        </monthWidth>
+       <monthWidth type="narrow">
+            <month type="1" draft="unconfirmed">⁨V⁩</month>
+            <month type="2" draft="unconfirmed">⁨B⁩</month>
+            <month type="3" draft="unconfirmed">⁨F⁩</month>
+            <month type="4" draft="unconfirmed">⁨N⁩</month>
+            <month type="5" draft="unconfirmed">⁨P⁩</month>
+            <month type="6" draft="unconfirmed">⁨V⁩</month>
+            <month type="7" draft="unconfirmed">⁨G⁩</month>
+            <month type="8" draft="unconfirmed">⁨F⁩</month>
+            <month type="9" draft="unconfirmed">⁨P⁩</month>
+            <month type="10" draft="unconfirmed">⁨M⁩</month>
+            <month type="11" draft="unconfirmed">⁨T⁩</month>
+            <month type="12" draft="unconfirmed">⁨F⁩</month>
+            <month type="13" draft="unconfirmed">⁨S⁩</month>
+        </monthWidth>
+       </monthContext>
+    </months>
+    <quarters>
+      <quarterContext type="format">
+         <quarterWidth type="abbreviated">
+            <quarter type="1" draft="unconfirmed">⁨T1⁩</quarter>
+            <quarter type="2" draft="unconfirmed">⁨T2⁩</quarter>
+            <quarter type="3" draft="unconfirmed">⁨T3⁩</quarter>
+            <quarter type="4" draft="unconfirmed">⁨T4⁩</quarter>
+        </quarterWidth>
+        <quarterWidth type="wide">
+            <quarter type="1" draft="unconfirmed">⁨trimestre 1⁩</quarter>
+            <quarter type="2" draft="unconfirmed">⁨trimestre 2⁩</quarter>
+            <quarter type="3" draft="unconfirmed">⁨trimestre 3⁩</quarter>
+            <quarter type="4" draft="unconfirmed">⁨trimestre 4⁩</quarter>
+        </quarterWidth>
+      </quarterContext>
+      <quarterContext type="stand-alone">
+         <quarterWidth type="abbreviated">
+            <quarter type="1" draft="unconfirmed">⁨T1⁩</quarter>
+            <quarter type="2" draft="unconfirmed">⁨T2⁩</quarter>
+            <quarter type="3" draft="unconfirmed">⁨T3⁩</quarter>
+            <quarter type="4" draft="unconfirmed">⁨T4⁩</quarter>
+        </quarterWidth>
+        <quarterWidth type="wide">
+            <quarter type="1" draft="unconfirmed">⁨trimestre 1⁩</quarter>
+            <quarter type="2" draft="unconfirmed">⁨trimestre 2⁩</quarter>
+            <quarter type="3" draft="unconfirmed">⁨trimestre 3⁩</quarter>
+            <quarter type="4" draft="unconfirmed">⁨trimestre 4⁩</quarter>
+        </quarterWidth>
+      </quarterContext>
+    </quarters>
+	<days>
+		<dayContext type="format">
+			<dayWidth type="wide">
+				<day type="1" draft="unconfirmed">⁨primidi⁩</day>
+				<day type="2" draft="unconfirmed">⁨duodi⁩</day>
+				<day type="3" draft="unconfirmed">⁨tridi⁩</day>
+				<day type="4" draft="unconfirmed">⁨quartidi⁩</day>
+				<day type="5" draft="unconfirmed">⁨quintidi⁩</day>
+				<day type="6" draft="unconfirmed">⁨sextidi⁩</day>
+				<day type="7" draft="unconfirmed">⁨septidi⁩</day>
+				<day type="8" draft="unconfirmed">⁨octidi⁩</day>
+				<day type="9" draft="unconfirmed">⁨nonidi⁩</day>
+				<day type="10" draft="unconfirmed">⁨decadi⁩</day>
+			</dayWidth>
+			<dayWidth type="abbreviated">
+				<day type="1" draft="unconfirmed">⁨prim.⁩</day>
+				<day type="2" draft="unconfirmed">⁨duo.⁩</day>
+				<day type="3" draft="unconfirmed">⁨tri.⁩</day>
+				<day type="4" draft="unconfirmed">⁨quart.⁩</day>
+				<day type="5" draft="unconfirmed">⁨quint.⁩</day>
+				<day type="6" draft="unconfirmed">⁨sext.⁩</day>
+				<day type="7" draft="unconfirmed">⁨sept.⁩</day>
+				<day type="8" draft="unconfirmed">⁨oct.⁩</day>
+				<day type="9" draft="unconfirmed">⁨non.⁩</day>
+				<day type="10" draft="unconfirmed">⁨dec.⁩</day>
+			</dayWidth>
+			<dayWidth type="short">
+				<day type="1" draft="unconfirmed">⁨pr⁩</day>
+				<day type="2" draft="unconfirmed">⁨du⁩</day>
+				<day type="3" draft="unconfirmed">⁨tr⁩</day>
+				<day type="4" draft="unconfirmed">⁨qr⁩</day>
+				<day type="5" draft="unconfirmed">⁨qn⁩</day>
+				<day type="6" draft="unconfirmed">⁨sx⁩</day>
+				<day type="7" draft="unconfirmed">⁨sp⁩</day>
+				<day type="8" draft="unconfirmed">⁨oc⁩</day>
+				<day type="9" draft="unconfirmed">⁨no⁩</day>
+				<day type="10" draft="unconfirmed">⁨dc⁩</day>
+			</dayWidth>
+			<dayWidth type="narrow">
+				<day type="1" draft="unconfirmed">⁨P⁩</day>
+				<day type="2" draft="unconfirmed">⁨D⁩</day>
+				<day type="3" draft="unconfirmed">⁨T⁩</day>
+				<day type="4" draft="unconfirmed">⁨Q⁩</day>
+				<day type="5" draft="unconfirmed">⁨Q⁩</day>
+				<day type="6" draft="unconfirmed">⁨S⁩</day>
+				<day type="7" draft="unconfirmed">⁨S⁩</day>
+				<day type="8" draft="unconfirmed">⁨O⁩</day>
+				<day type="9" draft="unconfirmed">⁨N⁩</day>
+				<day type="10" draft="unconfirmed">⁨D⁩</day>
+			</dayWidth>
+		</dayContext>
+		<dayContext type="stand-alone">
+			<dayWidth type="wide">
+				<day type="1" draft="unconfirmed">⁨primidi⁩</day>
+				<day type="2" draft="unconfirmed">⁨duodi⁩</day>
+				<day type="3" draft="unconfirmed">⁨tridi⁩</day>
+				<day type="4" draft="unconfirmed">⁨quartidi⁩</day>
+				<day type="5" draft="unconfirmed">⁨quintidi⁩</day>
+				<day type="6" draft="unconfirmed">⁨sextidi⁩</day>
+				<day type="7" draft="unconfirmed">⁨septidi⁩</day>
+				<day type="8" draft="unconfirmed">⁨octidi⁩</day>
+				<day type="9" draft="unconfirmed">⁨nonidi⁩</day>
+				<day type="10" draft="unconfirmed">⁨decadi⁩</day>
+			</dayWidth>
+			<dayWidth type="abbreviated">
+				<day type="1" draft="unconfirmed">⁨prim.⁩</day>
+				<day type="2" draft="unconfirmed">⁨duo.⁩</day>
+				<day type="3" draft="unconfirmed">⁨tri.⁩</day>
+				<day type="4" draft="unconfirmed">⁨quart.⁩</day>
+				<day type="5" draft="unconfirmed">⁨quint.⁩</day>
+				<day type="6" draft="unconfirmed">⁨sext.⁩</day>
+				<day type="7" draft="unconfirmed">⁨sept.⁩</day>
+				<day type="8" draft="unconfirmed">⁨oct.⁩</day>
+				<day type="9" draft="unconfirmed">⁨non.⁩</day>
+				<day type="10" draft="unconfirmed">⁨dec.⁩</day>
+			</dayWidth>
+			<dayWidth type="short">
+				<day type="1" draft="unconfirmed">⁨pr⁩</day>
+				<day type="2" draft="unconfirmed">⁨du⁩</day>
+				<day type="3" draft="unconfirmed">⁨tr⁩</day>
+				<day type="4" draft="unconfirmed">⁨qr⁩</day>
+				<day type="5" draft="unconfirmed">⁨qn⁩</day>
+				<day type="6" draft="unconfirmed">⁨sx⁩</day>
+				<day type="7" draft="unconfirmed">⁨sp⁩</day>
+				<day type="8" draft="unconfirmed">⁨oc⁩</day>
+				<day type="9" draft="unconfirmed">⁨no⁩</day>
+				<day type="10" draft="unconfirmed">⁨dc⁩</day>
+			</dayWidth>
+			<dayWidth type="narrow">
+				<day type="1" draft="unconfirmed">⁨P⁩</day>
+				<day type="2" draft="unconfirmed">⁨D⁩</day>
+				<day type="3" draft="unconfirmed">⁨T⁩</day>
+				<day type="4" draft="unconfirmed">⁨Q⁩</day>
+				<day type="5" draft="unconfirmed">⁨Q⁩</day>
+				<day type="6" draft="unconfirmed">⁨S⁩</day>
+				<day type="7" draft="unconfirmed">⁨S⁩</day>
+				<day type="8" draft="unconfirmed">⁨O⁩</day>
+				<day type="9" draft="unconfirmed">⁨N⁩</day>
+				<day type="10" draft="unconfirmed">⁨D⁩</day>
+			</dayWidth>
+		</dayContext>
+	</days>
+	<eras>
+		<eraNames>
+			<era type="0">French era</era>
+		</eraNames>
+		<eraAbbr>
+			<era type="0">Fr. e.</era>
+		</eraAbbr>
+		<eraNarrow>
+			<era type="0">FE</era>
+		</eraNarrow>
+	</eras>
+  </calendar>
+ </ldmlBCP47>
+ <!-- Here starts the ldml part - language-specific -->
+ <ldml>
+	<identity>
+		<language type="fr"/>
+		<calendar type="gregory">
+			<eras>
+				<eraNames>
+					<era type="0" draft="unconfirmed">avant Jésus-Christ</era>
+					<era type="1" draft="unconfirmed">calendrier julien</era>
+					<era type="2" draft="unconfirmed">calendrier grégorien</era>
+				</eraNames>
+				<eraAbbr>
+					<era type="0" draft="unconfirmed">av. J.-C.</era>
+					<era type="1" draft="unconfirmed">jul.</era>
+					<era type="2" draft="unconfirmed">grég.</era>
+				</eraAbbr>
+				<eraNarrow>
+					<era type="0" draft="unconfirmed">A</era>
+					<era type="1" draft="unconfirmed">J</era>
+					<era type="2" draft="unconfirmed">G</era>
+				</eraNarrow>
+			</eras>
+		</calendar>
+		<calendar type="milesian">
+			<months>
+			  <monthContext type="format">
+			   <default type="abbreviated"/> 
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">unème</month>
+				   <month type="2" draft="unconfirmed">secondème</month>
+				   <month type="3" draft="unconfirmed">tertème</month>
+				   <month type="4" draft="unconfirmed">quartème</month>
+				   <month type="5" draft="unconfirmed">quintème</month>
+				   <month type="6" draft="unconfirmed">sextème</month>
+				   <month type="7" draft="unconfirmed">septème</month>
+				   <month type="8" draft="unconfirmed">octème</month>
+				   <month type="9" draft="unconfirmed">novème</month>
+				   <month type="10" draft="unconfirmed">décème</month>
+				   <month type="11" draft="unconfirmed">onzème</month>
+				   <month type="12" draft="unconfirmed">douzème</month>
+				</monthWidth>
+			  </monthContext>
+			  <monthContext type="stand-alone">
+			   <default type="abbreviated"/> 
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">unème</month>
+				   <month type="2" draft="unconfirmed">secondème</month>
+				   <month type="3" draft="unconfirmed">tertème</month>
+				   <month type="4" draft="unconfirmed">quartème</month>
+				   <month type="5" draft="unconfirmed">quintème</month>
+				   <month type="6" draft="unconfirmed">sextème</month>
+				   <month type="7" draft="unconfirmed">septème</month>
+				   <month type="8" draft="unconfirmed">octème</month>
+				   <month type="9" draft="unconfirmed">novème</month>
+				   <month type="10" draft="unconfirmed">décème</month>
+				   <month type="11" draft="unconfirmed">onzème</month>
+				   <month type="12" draft="unconfirmed">douzème</month>
+				</monthWidth>
+			  </monthContext>
+			</months>
+		</calendar>
+		<calendar type="frenchrev">
+			<months>
+				<monthContext type="format">
+				<default type="abbreviated"/>
+					<monthWidth type="wide">
+						<month type="1" draft="unconfirmed">vendémiaire</month>
+						<month type="2" draft="unconfirmed">brumaire</month>
+						<month type="3" draft="unconfirmed">frimaire</month>
+						<month type="4" draft="unconfirmed">nivôse</month>
+						<month type="5" draft="unconfirmed">pluviôse</month>
+						<month type="6" draft="unconfirmed">ventôse</month>
+						<month type="7" draft="unconfirmed">germinal</month>
+						<month type="8" draft="unconfirmed">floréal</month>
+						<month type="9" draft="unconfirmed">prairial</month>
+						<month type="10" draft="unconfirmed">messidor</month>
+						<month type="11" draft="unconfirmed">thermidor</month>
+						<month type="12" draft="unconfirmed">fructidor</month>
+						<month type="13" draft="unconfirmed">sans-culottides</month>
+					</monthWidth>
+					<monthWidth type="abbreviated">
+						<month type="1" draft="unconfirmed">vend.</month>
+						<month type="2" draft="unconfirmed">brum.</month>
+						<month type="3" draft="unconfirmed">frim.</month>
+						<month type="4" draft="unconfirmed">niv.</month>
+						<month type="5" draft="unconfirmed">pluv.</month>
+						<month type="6" draft="unconfirmed">vent.</month>
+						<month type="7" draft="unconfirmed">germ.</month>
+						<month type="8" draft="unconfirmed">flor.</month>
+						<month type="9" draft="unconfirmed">prair.</month>
+						<month type="10" draft="unconfirmed">mess.</month>
+						<month type="11" draft="unconfirmed">therm.</month>
+						<month type="12" draft="unconfirmed">fruct.</month>
+						<month type="13" draft="unconfirmed">ss-cul.</month>
+					</monthWidth>
+					<monthWidth type="narrow">
+						<month type="1" draft="unconfirmed">V</month>
+						<month type="2" draft="unconfirmed">B</month>
+						<month type="3" draft="unconfirmed">F</month>
+						<month type="4" draft="unconfirmed">N</month>
+						<month type="5" draft="unconfirmed">P</month>
+						<month type="6" draft="unconfirmed">V</month>
+						<month type="7" draft="unconfirmed">G</month>
+						<month type="8" draft="unconfirmed">F</month>
+						<month type="9" draft="unconfirmed">P</month>
+						<month type="10" draft="unconfirmed">M</month>
+						<month type="11" draft="unconfirmed">T</month>
+						<month type="12" draft="unconfirmed">F</month>
+						<month type="13" draft="unconfirmed">S</month>
+					</monthWidth>
+					<monthWidth type="numeric"> 
+						<month type="1" draft="unconfirmed">1</month>
+						<month type="2" draft="unconfirmed">2</month>
+						<month type="3" draft="unconfirmed">3</month>
+						<month type="4" draft="unconfirmed">4</month>
+						<month type="5" draft="unconfirmed">5</month>
+						<month type="6" draft="unconfirmed">6</month>
+						<month type="7" draft="unconfirmed">7</month>
+						<month type="8" draft="unconfirmed">8</month>
+						<month type="9" draft="unconfirmed">9</month>
+						<month type="10" draft="unconfirmed">10</month>
+						<month type="11" draft="unconfirmed">11</month>
+						<month type="12" draft="unconfirmed">12</month>
+						<month type="13" draft="unconfirmed">13</month>
+					</monthWidth>
+				</monthContext>
+				<monthContext type="stand-alone">
+				<default type="abbreviated"/>
+					<monthWidth type="wide">
+						<month type="1" draft="unconfirmed">vendémiaire</month>
+						<month type="2" draft="unconfirmed">brumaire</month>
+						<month type="3" draft="unconfirmed">frimaire</month>
+						<month type="4" draft="unconfirmed">nivôse</month>
+						<month type="5" draft="unconfirmed">pluviôse</month>
+						<month type="6" draft="unconfirmed">ventôse</month>
+						<month type="7" draft="unconfirmed">germinal</month>
+						<month type="8" draft="unconfirmed">floréal</month>
+						<month type="9" draft="unconfirmed">prairial</month>
+						<month type="10" draft="unconfirmed">messidor</month>
+						<month type="11" draft="unconfirmed">thermidor</month>
+						<month type="12" draft="unconfirmed">fructidor</month>
+						<month type="13" draft="unconfirmed">sans-culottides</month>
+					</monthWidth>
+					<monthWidth type="abbreviated">
+						<month type="1" draft="unconfirmed">vend.</month>
+						<month type="2" draft="unconfirmed">brum.</month>
+						<month type="3" draft="unconfirmed">frim.</month>
+						<month type="4" draft="unconfirmed">niv.</month>
+						<month type="5" draft="unconfirmed">pluv.</month>
+						<month type="6" draft="unconfirmed">vent.</month>
+						<month type="7" draft="unconfirmed">germ.</month>
+						<month type="8" draft="unconfirmed">flor.</month>
+						<month type="9" draft="unconfirmed">prair.</month>
+						<month type="10" draft="unconfirmed">mess.</month>
+						<month type="11" draft="unconfirmed">therm.</month>
+						<month type="12" draft="unconfirmed">fruct.</month>
+						<month type="13" draft="unconfirmed">ss-cul.</month>
+					</monthWidth>
+					<monthWidth type="narrow">
+						<month type="1" draft="unconfirmed">V</month>
+						<month type="2" draft="unconfirmed">B</month>
+						<month type="3" draft="unconfirmed">F</month>
+						<month type="4" draft="unconfirmed">N</month>
+						<month type="5" draft="unconfirmed">P</month>
+						<month type="6" draft="unconfirmed">V</month>
+						<month type="7" draft="unconfirmed">G</month>
+						<month type="8" draft="unconfirmed">F</month>
+						<month type="9" draft="unconfirmed">P</month>
+						<month type="10" draft="unconfirmed">M</month>
+						<month type="11" draft="unconfirmed">T</month>
+						<month type="12" draft="unconfirmed">F</month>
+						<month type="13" draft="unconfirmed">S</month>
+					</monthWidth>
+					<monthWidth type="numeric"> 
+						<month type="1" draft="unconfirmed">1</month>
+						<month type="2" draft="unconfirmed">2</month>
+						<month type="3" draft="unconfirmed">3</month>
+						<month type="4" draft="unconfirmed">4</month>
+						<month type="5" draft="unconfirmed">5</month>
+						<month type="6" draft="unconfirmed">6</month>
+						<month type="7" draft="unconfirmed">7</month>
+						<month type="8" draft="unconfirmed">8</month>
+						<month type="9" draft="unconfirmed">9</month>
+						<month type="10" draft="unconfirmed">10</month>
+						<month type="11" draft="unconfirmed">11</month>
+						<month type="12" draft="unconfirmed">12</month>
+						<month type="13" draft="unconfirmed">13</month>
+					</monthWidth>
+				</monthContext>
+			</months>
+			<quarters>
+			  <quarterContext type="format">
+				 <quarterWidth type="abbreviated">
+					<quarter type="1" draft="unconfirmed">1er T.</quarter>
+					<quarter type="2" draft="unconfirmed">2e T.</quarter>
+					<quarter type="3" draft="unconfirmed">3e T.</quarter>
+					<quarter type="4" draft="unconfirmed">4e T.</quarter>
+				</quarterWidth>
+				<quarterWidth type="narrow">
+					<quarter type="1">1</quarter>
+					<quarter type="2">2</quarter>
+					<quarter type="3">3</quarter>
+					<quarter type="4">4</quarter>
+				</quarterWidth>
+				<quarterWidth type="wide">
+					<quarter type="1" draft="unconfirmed">1er trimestre </quarter>
+					<quarter type="2" draft="unconfirmed">2e trimestre </quarter>
+					<quarter type="3" draft="unconfirmed">3e trimestre </quarter>
+					<quarter type="4" draft="unconfirmed">4e trimestre </quarter>
+				</quarterWidth>
+			  </quarterContext>
+			  <quarterContext type="stand-alone">
+				 <quarterWidth type="abbreviated">
+					<quarter type="1" draft="unconfirmed">T1</quarter>
+					<quarter type="2" draft="unconfirmed">T2</quarter>
+					<quarter type="3" draft="unconfirmed">T3</quarter>
+					<quarter type="4" draft="unconfirmed">T4</quarter>
+				</quarterWidth>
+				<quarterWidth type="narrow">
+					<quarter type="1">1</quarter>
+					<quarter type="2">2</quarter>
+					<quarter type="3">3</quarter>
+					<quarter type="4">4</quarter>
+				</quarterWidth>
+				<quarterWidth type="wide">
+					<quarter type="1" draft="unconfirmed">1er trimestre </quarter>
+					<quarter type="2" draft="unconfirmed">2e trimestre </quarter>
+					<quarter type="3" draft="unconfirmed">3e trimestre </quarter>
+					<quarter type="4" draft="unconfirmed">4e trimestre </quarter>
+				</quarterWidth>
+			  </quarterContext>
+			</quarters>
+			<days>
+				<dayContext type="format">
+					<dayWidth type="wide">
+						<day type="1" draft="unconfirmed">primidi</day>
+						<day type="2" draft="unconfirmed">duodi</day>
+						<day type="3" draft="unconfirmed">tridi</day>
+						<day type="4" draft="unconfirmed">quartidi</day>
+						<day type="5" draft="unconfirmed">quintidi</day>
+						<day type="6" draft="unconfirmed">sextidi</day>
+						<day type="7" draft="unconfirmed">septidi</day>
+						<day type="8" draft="unconfirmed">octidi</day>
+						<day type="9" draft="unconfirmed">nonidi</day>
+						<day type="10" draft="unconfirmed">décadi</day>
+						<day type="11" draft="unconfirmed">jour de la Vertu</day>
+						<day type="12" draft="unconfirmed">jour du Génie</day>
+						<day type="13" draft="unconfirmed">jour du Travail</day>
+						<day type="14" draft="unconfirmed">jour de l'Opinion</day>
+						<day type="15" draft="unconfirmed">jour des Récompenses</day>
+						<day type="16" draft="unconfirmed">jour de la Révolution</day>
+					</dayWidth>
+					<dayWidth type="abbreviated">
+						<day type="1" draft="unconfirmed">prim.</day>
+						<day type="2" draft="unconfirmed">duo.</day>
+						<day type="3" draft="unconfirmed">tri.</day>
+						<day type="4" draft="unconfirmed">quart.</day>
+						<day type="5" draft="unconfirmed">quint.</day>
+						<day type="6" draft="unconfirmed">sext.</day>
+						<day type="7" draft="unconfirmed">sept.</day>
+						<day type="8" draft="unconfirmed">oct.</day>
+						<day type="9" draft="unconfirmed">non.</day>
+						<day type="10" draft="unconfirmed">dec.</day>
+						<day type="11" draft="unconfirmed">j. V.</day>
+						<day type="12" draft="unconfirmed">j. G.</day>
+						<day type="13" draft="unconfirmed">j. T.</day>
+						<day type="14" draft="unconfirmed">j. O.</day>
+						<day type="15" draft="unconfirmed">j. R.</day>
+						<day type="16" draft="unconfirmed">j. Rl.</day>
+					</dayWidth>
+					<dayWidth type="short">
+						<day type="1" draft="unconfirmed">pr</day>
+						<day type="2" draft="unconfirmed">du</day>
+						<day type="3" draft="unconfirmed">tr</day>
+						<day type="4" draft="unconfirmed">qr</day>
+						<day type="5" draft="unconfirmed">qn</day>
+						<day type="6" draft="unconfirmed">sx</day>
+						<day type="7" draft="unconfirmed">sp</day>
+						<day type="8" draft="unconfirmed">oc</day>
+						<day type="9" draft="unconfirmed">no</day>
+						<day type="10" draft="unconfirmed">dc</day>
+						<day type="11" draft="unconfirmed">jV</day>
+						<day type="12" draft="unconfirmed">jG</day>
+						<day type="13" draft="unconfirmed">jT</day>
+						<day type="14" draft="unconfirmed">jO</day>
+						<day type="15" draft="unconfirmed">jR</day>
+						<day type="16" draft="unconfirmed">jl</day>
+					</dayWidth>
+					<dayWidth type="narrow">
+						<day type="1" draft="unconfirmed">P</day>
+						<day type="2" draft="unconfirmed">D</day>
+						<day type="3" draft="unconfirmed">T</day>
+						<day type="4" draft="unconfirmed">Q</day>
+						<day type="5" draft="unconfirmed">Q</day>
+						<day type="6" draft="unconfirmed">S</day>
+						<day type="7" draft="unconfirmed">S</day>
+						<day type="8" draft="unconfirmed">O</day>
+						<day type="9" draft="unconfirmed">N</day>
+						<day type="10" draft="unconfirmed">D</day>
+						<day type="11" draft="unconfirmed">V</day>
+						<day type="12" draft="unconfirmed">G</day>
+						<day type="13" draft="unconfirmed">T</day>
+						<day type="14" draft="unconfirmed">O</day>
+						<day type="15" draft="unconfirmed">R</day>
+						<day type="16" draft="unconfirmed">R</day>
+					</dayWidth>
+				</dayContext>
+				<dayContext type="stand-alone">
+					<dayWidth type="wide">
+						<day type="1" draft="unconfirmed">primidi</day>
+						<day type="2" draft="unconfirmed">duodi</day>
+						<day type="3" draft="unconfirmed">tridi</day>
+						<day type="4" draft="unconfirmed">quartidi</day>
+						<day type="5" draft="unconfirmed">quintidi</day>
+						<day type="6" draft="unconfirmed">sextidi</day>
+						<day type="7" draft="unconfirmed">septidi</day>
+						<day type="8" draft="unconfirmed">octidi</day>
+						<day type="9" draft="unconfirmed">nonidi</day>
+						<day type="10" draft="unconfirmed">décadi</day>
+						<day type="11" draft="unconfirmed">jour de la Vertu</day>
+						<day type="12" draft="unconfirmed">jour du Génie</day>
+						<day type="13" draft="unconfirmed">jour du Travail</day>
+						<day type="14" draft="unconfirmed">jour de l'Opinion</day>
+						<day type="15" draft="unconfirmed">jour des Récompenses</day>
+						<day type="16" draft="unconfirmed">jour de la Révolution</day>
+					</dayWidth>
+					<dayWidth type="abbreviated">
+						<day type="1" draft="unconfirmed">prim.</day>
+						<day type="2" draft="unconfirmed">duo.</day>
+						<day type="3" draft="unconfirmed">tri.</day>
+						<day type="4" draft="unconfirmed">quart.</day>
+						<day type="5" draft="unconfirmed">quint.</day>
+						<day type="6" draft="unconfirmed">sext.</day>
+						<day type="7" draft="unconfirmed">sept.</day>
+						<day type="8" draft="unconfirmed">oct.</day>
+						<day type="9" draft="unconfirmed">non.</day>
+						<day type="10" draft="unconfirmed">dec.</day>
+						<day type="11" draft="unconfirmed">j. V.</day>
+						<day type="12" draft="unconfirmed">j. G.</day>
+						<day type="13" draft="unconfirmed">j. T.</day>
+						<day type="14" draft="unconfirmed">j. O.</day>
+						<day type="15" draft="unconfirmed">j. R.</day>
+						<day type="16" draft="unconfirmed">j. Rl.</day>
+					</dayWidth>
+					<dayWidth type="short">
+						<day type="1" draft="unconfirmed">pr</day>
+						<day type="2" draft="unconfirmed">du</day>
+						<day type="3" draft="unconfirmed">tr</day>
+						<day type="4" draft="unconfirmed">qr</day>
+						<day type="5" draft="unconfirmed">qn</day>
+						<day type="6" draft="unconfirmed">sx</day>
+						<day type="7" draft="unconfirmed">sp</day>
+						<day type="8" draft="unconfirmed">oc</day>
+						<day type="9" draft="unconfirmed">no</day>
+						<day type="10" draft="unconfirmed">dc</day>
+						<day type="11" draft="unconfirmed">jV</day>
+						<day type="12" draft="unconfirmed">jG</day>
+						<day type="13" draft="unconfirmed">jT</day>
+						<day type="14" draft="unconfirmed">jO</day>
+						<day type="15" draft="unconfirmed">jR</day>
+						<day type="16" draft="unconfirmed">jl</day>
+					</dayWidth>
+					<dayWidth type="narrow">
+						<day type="1" draft="unconfirmed">P</day>
+						<day type="2" draft="unconfirmed">D</day>
+						<day type="3" draft="unconfirmed">T</day>
+						<day type="4" draft="unconfirmed">Q</day>
+						<day type="5" draft="unconfirmed">Q</day>
+						<day type="6" draft="unconfirmed">S</day>
+						<day type="7" draft="unconfirmed">S</day>
+						<day type="8" draft="unconfirmed">O</day>
+						<day type="9" draft="unconfirmed">N</day>
+						<day type="10" draft="unconfirmed">D</day>
+						<day type="11" draft="unconfirmed">V</day>
+						<day type="12" draft="unconfirmed">G</day>
+						<day type="13" draft="unconfirmed">T</day>
+						<day type="14" draft="unconfirmed">O</day>
+						<day type="15" draft="unconfirmed">R</day>
+						<day type="16" draft="unconfirmed">R</day>
+					</dayWidth>
+				</dayContext>
+			</days>
+			<eras>
+				<eraNames>
+					<era type="0">ère des Français</era>
+				</eraNames>
+				<eraAbbr>
+					<era type="0">è. Fr.</era>
+				</eraAbbr>
+				<eraNarrow>
+					<era type="0">EF</era>
+				</eraNarrow>
+			</eras>
+		</calendar>
+	</identity>
+	<identity>
+		<language type="en"/>
+		<calendar type="gregory">
+			<eras>
+				<eraNames>
+					<era type="0" draft="unconfirmed">Before Christ</era>
+					<era type="1" draft="unconfirmed">Old Style</era>
+					<era type="2" draft="unconfirmed">New Style</era>
+				</eraNames>
+				<eraAbbr>
+					<era type="0" draft="unconfirmed">B.C.</era>
+					<era type="1" draft="unconfirmed">O.S.</era>
+					<era type="2" draft="unconfirmed">N.S.</era>
+				</eraAbbr>
+				<eraNarrow>
+					<era type="0" draft="unconfirmed">B</era>
+					<era type="1" draft="unconfirmed">O</era>
+					<era type="2" draft="unconfirmed">N</era>
+				</eraNarrow>
+			</eras>
+		</calendar>
+		<calendar type="milesian">
+			<months>
+			  <monthContext type="format">
+			   <default type="abbreviated"/>
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">Firstem</month>
+				   <month type="2" draft="unconfirmed">Secondem</month>
+				   <month type="3" draft="unconfirmed">Thirdem</month>
+				   <month type="4" draft="unconfirmed">Fourthem</month>
+				   <month type="5" draft="unconfirmed">Fifthem</month>
+				   <month type="6" draft="unconfirmed">Sixthem</month>
+				   <month type="7" draft="unconfirmed">Seventhem</month>
+				   <month type="8" draft="unconfirmed">Eighthem</month>
+				   <month type="9" draft="unconfirmed">Ninthem</month>
+				   <month type="10" draft="unconfirmed">Tenthem</month>
+				   <month type="11" draft="unconfirmed">Eleventhem</month>
+				   <month type="12" draft="unconfirmed">Twelfthem</month>
+				</monthWidth>
+			  </monthContext>
+			  <monthContext type="stand-alone">
+			   <default type="abbreviated"/> 
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">Firstem</month>
+				   <month type="2" draft="unconfirmed">Secondem</month>
+				   <month type="3" draft="unconfirmed">Thirdem</month>
+				   <month type="4" draft="unconfirmed">Fourthem</month>
+				   <month type="5" draft="unconfirmed">Fifthem</month>
+				   <month type="6" draft="unconfirmed">Sixthem</month>
+				   <month type="7" draft="unconfirmed">Seventhem</month>
+				   <month type="8" draft="unconfirmed">Eighthem</month>
+				   <month type="9" draft="unconfirmed">Ninthem</month>
+				   <month type="10" draft="unconfirmed">Tenthem</month>
+				   <month type="11" draft="unconfirmed">Eleventhem</month>
+				   <month type="12" draft="unconfirmed">Twelfthem</month>
+				</monthWidth>
+			  </monthContext>
+			</months>
+		</calendar>
+	</identity>
+	<identity>
+		<language type="de"/>
+		<calendar type="gregory">
+			<eras>
+				<eraNames>
+					<era type="0" draft="unconfirmed">vor Christus</era>
+					<era type="1" draft="unconfirmed">alten Stils</era>
+					<era type="2" draft="unconfirmed">neuen Stils</era>
+				</eraNames>
+				<eraAbbr>
+					<era type="0" draft="unconfirmed">v. Chr.</era>
+					<era type="1" draft="unconfirmed">a. St.</era>
+					<era type="2" draft="unconfirmed">n. St.</era>
+				</eraAbbr>
+				<eraNarrow>
+					<era type="0" draft="unconfirmed">V</era>
+					<era type="1" draft="unconfirmed">A</era>
+					<era type="2" draft="unconfirmed">N</era>
+				</eraNarrow>
+			</eras>
+		</calendar>
+		<calendar type="milesian">
+			<months>
+			  <monthContext type="format">
+			   <default type="abbreviated"/> 
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">Erstme</month>
+				   <month type="2" draft="unconfirmed">Zweitme</month>
+				   <month type="3" draft="unconfirmed">Drittme</month>
+				   <month type="4" draft="unconfirmed">Viertme</month>
+				   <month type="5" draft="unconfirmed">Fünftme</month>
+				   <month type="6" draft="unconfirmed">Sechstme</month>
+				   <month type="7" draft="unconfirmed">Siebentme</month>
+				   <month type="8" draft="unconfirmed">Achtme</month>
+				   <month type="9" draft="unconfirmed">Neuntme</month>
+				   <month type="10" draft="unconfirmed">Zehntme</month>
+				   <month type="11" draft="unconfirmed">Elftme</month>
+				   <month type="12" draft="unconfirmed">Zwölftme</month>
+				</monthWidth>
+			  </monthContext>
+			  <monthContext type="stand-alone">
+			   <default type="abbreviated"/> 
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">Erstme</month>
+				   <month type="2" draft="unconfirmed">Zweitme</month>
+				   <month type="3" draft="unconfirmed">Drittme</month>
+				   <month type="4" draft="unconfirmed">Viertme</month>
+				   <month type="5" draft="unconfirmed">Fünftme</month>
+				   <month type="6" draft="unconfirmed">Sechstme</month>
+				   <month type="7" draft="unconfirmed">Siebentme</month>
+				   <month type="8" draft="unconfirmed">Achtme</month>
+				   <month type="9" draft="unconfirmed">Neuntme</month>
+				   <month type="10" draft="unconfirmed">Zehntme</month>
+				   <month type="11" draft="unconfirmed">Elftme</month>
+				   <month type="12" draft="unconfirmed">Zwölftme</month>
+				</monthWidth>
+			  </monthContext>
+			</months>
+		</calendar>
+	</identity>
+	<identity>
+		<language type="es"/>
+		<calendar type="gregory">
+			<eras>
+				<eraNames>
+					<era type="0" draft="unconfirmed">antes de Christo</era>
+					<era type="1" draft="unconfirmed">calendario juliano</era>
+					<era type="2" draft="unconfirmed">calendario gregoriano</era>
+				</eraNames>
+				<eraAbbr>
+					<era type="0" draft="unconfirmed">a. C.</era>
+					<era type="1" draft="unconfirmed">c. jul.</era>
+					<era type="2" draft="unconfirmed">c. greg.</era>
+				</eraAbbr>
+				<eraNarrow>
+					<era type="0" draft="unconfirmed">a. C.</era>
+					<era type="1" draft="unconfirmed">c. jul.</era>
+					<era type="2" draft="unconfirmed">c. greg.</era>
+				</eraNarrow>
+			</eras>
+		</calendar>
+		<calendar type="milesian">
+			<months>
+			  <monthContext type="format">
+			   <default type="abbreviated"/>
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">primerem</month>
+				   <month type="2" draft="unconfirmed">segondem</month>
+				   <month type="3" draft="unconfirmed">tercerem</month>
+				   <month type="4" draft="unconfirmed">cuartem</month>
+				   <month type="5" draft="unconfirmed">quintem</month>
+				   <month type="6" draft="unconfirmed">sextem</month>
+				   <month type="7" draft="unconfirmed">séptimem</month>
+				   <month type="8" draft="unconfirmed">octavem</month>
+				   <month type="9" draft="unconfirmed">novenem</month>
+				   <month type="10" draft="unconfirmed">décimem</month>
+				   <month type="11" draft="unconfirmed">undécimem</month>
+				   <month type="12" draft="unconfirmed">duodécimem</month>
+				</monthWidth>
+			  </monthContext>
+			  <monthContext type="stand-alone">
+			   <default type="abbreviated"/> 
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">primerem</month>
+				   <month type="2" draft="unconfirmed">segondem</month>
+				   <month type="3" draft="unconfirmed">tercerem</month>
+				   <month type="4" draft="unconfirmed">cuartem</month>
+				   <month type="5" draft="unconfirmed">quintem</month>
+				   <month type="6" draft="unconfirmed">sextem</month>
+				   <month type="7" draft="unconfirmed">séptimem</month>
+				   <month type="8" draft="unconfirmed">octavem</month>
+				   <month type="9" draft="unconfirmed">novenem</month>
+				   <month type="10" draft="unconfirmed">décimem</month>
+				   <month type="11" draft="unconfirmed">undécimem</month>
+				   <month type="12" draft="unconfirmed">duodécimem</month>
+				</monthWidth>
+			  </monthContext>
+			</months>
+		</calendar>
+	</identity>
+	<identity>
+		<language type="pt"/>
+		<calendar type="gregory">
+			<eras>
+				<eraNames>
+					<era type="0" draft="unconfirmed">antes de Christo</era>
+					<era type="1" draft="unconfirmed">calendário juliano</era>
+					<era type="2" draft="unconfirmed">calendário gregoriano</era>
+				</eraNames>
+				<eraAbbr>
+					<era type="0" draft="unconfirmed">a. C.</era>
+					<era type="1" draft="unconfirmed">c. jul.</era>
+					<era type="2" draft="unconfirmed">c. greg.</era>
+				</eraAbbr>
+				<eraNarrow>
+					<era type="0" draft="unconfirmed">a. C.</era>
+					<era type="1" draft="unconfirmed">c. jul.</era>
+					<era type="2" draft="unconfirmed">c. greg.</era>
+				</eraNarrow>
+			</eras>
+		</calendar>
+		<calendar type="milesian">
+			<months>
+			  <monthContext type="format">
+			   <default type="abbreviated"/> 
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">primeirem</month>
+				   <month type="2" draft="unconfirmed">segundem</month>
+				   <month type="3" draft="unconfirmed">terceirem</month>
+				   <month type="4" draft="unconfirmed">quartem</month>
+				   <month type="5" draft="unconfirmed">quintem</month>
+				   <month type="6" draft="unconfirmed">sextem</month>
+				   <month type="7" draft="unconfirmed">sétimem</month>
+				   <month type="8" draft="unconfirmed">oitavem</month>
+				   <month type="9" draft="unconfirmed">nonem</month>
+				   <month type="10" draft="unconfirmed">décimem</month>
+				   <month type="11" draft="unconfirmed">undécimem</month>
+				   <month type="12" draft="unconfirmed">duodécimem</month>
+				</monthWidth>
+			  </monthContext>
+			  <monthContext type="stand-alone">
+			   <default type="abbreviated"/> 
+				<monthWidth type="wide">
+				   <month type="1" draft="unconfirmed">primeirem</month>
+				   <month type="2" draft="unconfirmed">segundem</month>
+				   <month type="3" draft="unconfirmed">terceirem</month>
+				   <month type="4" draft="unconfirmed">quartem</month>
+				   <month type="5" draft="unconfirmed">quintem</month>
+				   <month type="6" draft="unconfirmed">sextem</month>
+				   <month type="7" draft="unconfirmed">sétimem</month>
+				   <month type="8" draft="unconfirmed">oitavem</month>
+				   <month type="9" draft="unconfirmed">nonem</month>
+				   <month type="10" draft="unconfirmed">décimem</month>
+				   <month type="11" draft="unconfirmed">undécimem</month>
+				   <month type="12" draft="unconfirmed">duodécimem</month>
+				</monthWidth>
+			  </monthContext>
+			</months>
+		</calendar>
+	</identity>	
+  </ldml>
+</pldr>
