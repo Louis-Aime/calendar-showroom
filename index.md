@@ -68,5 +68,16 @@ Write today's date in Milesian, after fetching the modules and the pldr.xml file
 
 ### Comments and proposal
  Use this repository's [issues](https://github.com/Louis-Aime/Milesian-calendar/issues).
+ 
+## Fourmilab calendar upgraded
+The fourmilab calendar, originally developed by John Walker in 2015, with some bug fixes and some enhancements. 
+This application is often cited as a date converter.
+* [The fourmilab calendar on line](https://louis-aime.github.io/fourmilab_calendar_upgraded/).
+
+## Paris observatory calendar application enhanced
+From 1991 until 2023, this application was the reference calendar converter of the Paris observatory. 
+But there were some bugs, which we fixed in [these pages](https://louis-aime.github.io/promenade_imcce_calendriers/).
+
+To be continued...
 
 
